@@ -80,7 +80,6 @@ function Lab_entrada_form()
         echo "<p class='exito'><b>Tus datos han sido registrados.</b><br>
 		      Gracias por tu interés. En breve contactaremos contigo.<p>";
     }
-ob_start();
 	?>
     <form action="<?php get_the_permalink();?>" method="post" id="form_entrada"
         class="cuestionario">
